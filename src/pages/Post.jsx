@@ -32,10 +32,10 @@ export default function Post() {
 
   return post ? (
     <div className="py-8 bg-[#202225] ">
-    <div className=" mx-52 p-4 rounded-lg shadow-sm shadow-gray-700">
+    <div className=" p-4 rounded-lg shadow-sm shadow-gray-700">
       <div className="flex items-center flex-col">
         <h1 className="text-2xl text-white font-bold p-8">{post.title}</h1>
-      <h3 className="text-white p-8 mx-32">
+      <h3 className="text-white p-8 ">
       {post.content}
       </h3>
       </div>
